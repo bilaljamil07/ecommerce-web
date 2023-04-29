@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#feature">Featured Products</a></li>
+            <li><a href="#products">Our Products</a></li>
+            <li><a href="#links">Quick Links</a></li>
+            <li><a href="cart.html" target="_blank">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cart -->
+<div class="container">
+    <div class="small-container cart-page">
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="watch.jpg" width="250px" >
+                        <div class="info">
+                            <p>Watch</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="shoes.jpeg" width="250px" >
+                        <div>
+                            <p>Shoes</p>
+                            <small>Price: $100.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$100</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="tshirt.jpeg" width="250px" >
+                        <div>
+                            <p>T-shirt</p>
+                            <small>Price: $30.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$30</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="trousers.jpeg" width="250px" >
+                        <div>
+                            <p>Trousers</p>
+                            <small>Price: $60.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$60</td>
+            </tr>
+        </table>
+    </div>
+
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>$240.00</td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>$43.20</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>$283.20</td>
+        </tr>
+    </table>
+</div>
+
+    <!-- Checkout button -->
+    <div class="checkout-btn">
+        <button type="submit"><i style="font-size:24px" class="fa">&#xf07a;</i> Proceed to Checkout</button>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="phone">Phone: 03XXXXXXXXX</div>
+        <div class="email">Email: bj70925@gmail.com</div>
+        <div class="location">Location: Karachi</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
